@@ -1,0 +1,21 @@
+{
+  "name": "saucedemo-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ambiente Cypress baseado no primeiro teste pratico com Sauce Demo.",
+  "type": "module",
+  "scripts": {
+    "cypress:open": "env -u ELECTRON_RUN_AS_NODE cypress open",
+    "cypress:run": "env -u ELECTRON_RUN_AS_NODE cypress run",
+    "cypress:run:login": "env -u ELECTRON_RUN_AS_NODE cypress run --spec cypress/e2e/login.cy.js",
+    "cypress:run:fluxo": "env -u ELECTRON_RUN_AS_NODE cypress run --spec cypress/e2e/fluxo-compra.cy.js",
+    "cypress:verify": "env -u ELECTRON_RUN_AS_NODE cypress verify",
+    "cy:open": "npm run cypress:open",
+    "cy:run": "npm run cypress:run",
+    "cy:verify": "npm run cypress:verify",
+    "test": "npm run cypress:run"
+  },
+  "devDependencies": {
+    "cypress": "^15.14.2"
+  }
+}
