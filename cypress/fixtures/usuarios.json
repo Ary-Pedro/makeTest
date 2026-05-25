@@ -1,6 +1,25 @@
 {
-  "usuarioPadrao": {
-    "username": "standard_user",
-    "password": "secret_sauce"
+  "usuarioAutomation": {
+    "name": "Pedro Teste",
+    "password": "Senha@123",
+    "title": "Mr",
+    "birth_date": "10",
+    "birth_month": "May",
+    "birth_year": "1995",
+    "firstname": "Pedro",
+    "lastname": "Teste",
+    "company": "MailerWeb",
+    "address1": "Rua Teste 123",
+    "address2": "Apartamento 45",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Toronto",
+    "zipcode": "12345",
+    "mobile_number": "11999999999"
+  },
+  "contato": {
+    "name": "Pedro Teste",
+    "subject": "Contato de teste",
+    "message": "Mensagem enviada pelo teste automatizado."
   }
 }

@@ -1,14 +1,13 @@
 {
-  "name": "saucedemo-cypress",
+  "name": "automation-exercise-cypress",
   "version": "1.0.0",
   "private": true,
-  "description": "Ambiente Cypress baseado no primeiro teste pratico com Sauce Demo.",
+  "description": "Suite Cypress E2E para os fluxos do Automation Exercise.",
   "type": "module",
   "scripts": {
     "cypress:open": "env -u ELECTRON_RUN_AS_NODE cypress open",
     "cypress:run": "env -u ELECTRON_RUN_AS_NODE cypress run",
-    "cypress:run:login": "env -u ELECTRON_RUN_AS_NODE cypress run --spec cypress/e2e/login.cy.js",
-    "cypress:run:fluxo": "env -u ELECTRON_RUN_AS_NODE cypress run --spec cypress/e2e/fluxo-compra.cy.js",
+    "cypress:run:automation": "env -u ELECTRON_RUN_AS_NODE cypress run --spec cypress/e2e/automation-exercise.cy.js",
     "cypress:verify": "env -u ELECTRON_RUN_AS_NODE cypress verify",
     "cy:open": "npm run cypress:open",
     "cy:run": "npm run cypress:run",
